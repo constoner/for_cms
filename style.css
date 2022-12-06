@@ -1,102 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
 
 body {
-    min-width: 1440px;
-    margin: 0;
-    font-family: 'Montserrat', 'Tahoma', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: #000000;
-    background-color: #FFFDF8;
+  min-width: 1440px;
+  margin: 0;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  background-color: #FFFDF8;
 }
 
 .wrapper {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0 165px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 165px;
 }
 
 .page-main {
-    padding: 72px 0;
+  padding: 72px 0;
 }
 
 .wysiwyg-wrapper h1 {
-    width: 950px;
-    margin: 0;
-    margin-bottom: 32px;
-    font-family: 'Montserrat', 'Tahoma', sans-serif;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 59px;
-    color: #000000;
+  width: 950px;
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
 }
 
 .wysiwyg-wrapper h2 {
-    width: 750px;
-    margin: 0;
-    margin-bottom: 56px;
-    font-family: 'Montserrat', 'Tahoma', sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 49px;
-    color: #9F7303;
+  width: 750px;
+  margin: 0;
+  margin-bottom: 56px;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  color: #9F7303;
 }
 
 .wysiwyg-wrapper h3 {
-    width: 750px;
-    margin: 0;
-    margin-bottom: 34px;
-    font-family: 'Montserrat', 'Tahoma', sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
-    color: #9F7303;
+  width: 750px;
+  margin: 0;
+  margin-bottom: 34px;
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #9F7303;
 }
 
 .wysiwyg-wrapper p {
-    margin: 0;
-    margin-bottom: 32px;
+  margin: 0;
+  margin-bottom: 32px;
 }
 
 .wysiwyg-wrapper ul,
 .wysiwyg-wrapper ol {
-    margin-bottom: 56px;
-    padding-left: 27px;
+  margin-bottom: 56px;
+  padding-left: 27px;
 }
 
 .wysiwyg-wrapper ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .wysiwyg-wrapper li {
-    position: relative;
-    margin-bottom: 8px;
+  position: relative;
+  margin-bottom: 8px;
 }
 
 .wysiwyg-wrapper li::before {
-    display: block;
-    position: absolute;
-    left: -25px;
-    top: 9px;
-    width: 8px;
-    height: 8px;
-    background-color: #F5D581; 
-    transform: rotate(45deg);
-    content: "";
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  background-color: #F5D581;
+  transform: rotate(45deg);
+  content: "";
 }
 
 .wysiwyg-wrapper blockquote {
-    box-sizing: border-box;
-    width: 920px;
-    margin: 50px auto;
-    padding: 40px 92px;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 24px;
-    text-align: center;
-    color: #9F7303;
-    border-top: 1px solid #F5D581;
-    border-bottom: 1px solid #F5D581;
+  box-sizing: border-box;
+  width: 920px;
+  margin: 50px auto;
+  padding: 40px 92px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #9F7303;
+  border-top: 1px solid #F5D581;
+  border-bottom: 1px solid #F5D581;
 }
