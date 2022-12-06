@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
+
+body {
+    min-width: 1440px;
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    background-color: #FFFDF8;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 165px;
+}
+
+.page-main {
+    padding: 72px 0;
+}
+
+.wysiwyg-wrapper h1 {
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.wysiwyg-wrapper h2 {
+    margin: 0;
+    margin-bottom: 56px;
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #9F7303;
+}
+
+.wysiwyg-wrapper h3 {
+    margin: 0;
+    margin-bottom: 34px;
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #9F7303;
+}
+
+.wysiwyg-wrapper p {
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.wysiwyg-wrapper ul,
+.wysiwyg-wrapper ol {
+    margin-bottom: 56px;
+    padding-left: 27px;
+}
+
+.wysiwyg-wrapper ul {
+    list-style-type: none;
+}
+
+.wysiwyg-wrapper li {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.wysiwyg-wrapper li::before {
+    display: block;
+    position: absolute;
+    left: -25px;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    background-color: #9F7303; 
+    transform: rotate(45deg);
+    content: "";
+}
+
+.wp-block-separator {
+    width: 920px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #F5D581; 
+}
