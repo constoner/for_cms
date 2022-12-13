@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap");
 
 body {
   min-width: 1440px;
   margin: 0;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-family: "Montserrat", "tahoma", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #000000;
-  background-color: #FFFDF8;
+  background-color: #fffdf8;
 }
 
 .wrapper {
@@ -18,15 +18,16 @@ body {
   padding: 0 165px;
 }
 
-.page-main {
-  padding: 72px 0;
+.promo {
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 .wysiwyg-wrapper h1 {
   width: 950px;
   margin: 0;
   margin-bottom: 32px;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-family: "Montserrat", "tahoma", sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
@@ -37,22 +38,22 @@ body {
   width: 750px;
   margin: 0;
   margin-bottom: 56px;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-family: "Montserrat", "tahoma", sans-serif;
   font-weight: 500;
   font-size: 40px;
   line-height: 49px;
-  color: #9F7303;
+  color: #9f7303;
 }
 
 .wysiwyg-wrapper h3 {
   width: 750px;
   margin: 0;
   margin-bottom: 34px;
-  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  font-family: "Montserrat", "tahoma", sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
-  color: #9F7303;
+  color: #9f7303;
 }
 
 .wysiwyg-wrapper p {
@@ -82,7 +83,7 @@ body {
   top: 9px;
   width: 8px;
   height: 8px;
-  background-color: #F5D581;
+  background-color: #f5d581;
   transform: rotate(45deg);
   content: "";
 }
@@ -96,7 +97,137 @@ body {
   font-weight: 300;
   font-size: 24px;
   text-align: center;
-  color: #9F7303;
-  border-top: 1px solid #F5D581;
-  border-bottom: 1px solid #F5D581;
+  color: #9f7303;
+  border-top: 1px solid #f5d581;
+  border-bottom: 1px solid #f5d581;
+}
+
+.page-main__image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 56px;
+}
+
+.review {
+  padding-top: 81px;
+  padding-bottom: 25px;
+  background-color: #f4efe2;
+}
+
+.review__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px 16px;
+  margin-bottom: 56px;
+}
+
+.review__divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #f5d581;
+}
+
+.review__area {
+  grid-column: 1/-1;
+}
+
+.review__user-name {
+  grid-column: 1/3;
+}
+
+.wysiwyg-wrapper textarea,
+.wysiwyg-wrapper input {
+  display: block;
+  padding: 16px;
+  padding-bottom: 21px;
+  font-family: "Montserrat", "tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+  border: 1px solid #f5d581;
+  border-radius: 8px;
+}
+
+.wysiwyg-wrapper *::placeholder {
+  font-family: "Montserrat", "tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.review__button {
+  grid-column: 1/2;
+  padding: 18px;
+  font-family: "Montserrat", "tahoma", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  background-color: #9f7303;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.review__help {
+  grid-column: 2/3;
+  align-self: center;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.review__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.review__item {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 8px 24px;
+  margin-bottom: 32px;
+}
+
+.user-image__wrapper {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-indent: -100vw;
+}
+
+.user-name,
+.user-comment {
+  grid-column: 2/-1;
+  margin: 0;
+  padding: 0;
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.user-comment {
+  white-space: pre-line;
 }
