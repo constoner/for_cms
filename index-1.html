@@ -14,7 +14,7 @@
     </header>
 
     <main class="page-main">
-        <!-- <section class="promo wrapper">
+        <section class="promo wrapper">
             <div class="wysiwyg-wrapper">
                 <h1>Дизайн общественных интерьеров</h1>
                 <h2>Кейс клубного дома Tomazzi Hall</h2>
@@ -66,20 +66,27 @@
                     поручил дизайн парадных и лаунж-зон нам. Основными моментами, на которые мы оринтировались, стали:
                 </p>
             </div>
-        </section> -->
+        </section>
         <section class="review wrapper">
-            <!-- <div class="wysiwyg-wrapper">
+            <div class="wysiwyg-wrapper">
                 <h3>Оставить отзыв</h3>
-                <form class="review__form" action="https://echo.htmlacademy.ru/" method="post">
-                    <textarea class="review__area" name="review__area" id="review__area" cols="30" rows="10"
-                        placeholder="Расскажите, что вы думаете о проекте" required></textarea>
-                    <input class="review__review-name" name="review-name" id="review-name" type="text" placeholder="Ваше имя" required>
-                    <button class="review__button" type="submit">Отправить</button>
-                    <span class="review__help">Отзыв будет добавлен после проверки модератором</span>
-                </form>
-            </div> -->
+            </div>
+            <div class="review-form">
+                <div class="wpcf7">
+                    <form action="https://echo.htmlacademy.ru/" method="post">
+                        <div class="review-form__grid-wrapper">
+                            <textarea class="wpcf7-textarea" name="comment" id="comment" cols="30" rows="10" required placeholder="Расскажите, что вы думаете о проекте"></textarea>
+                            <input class="wpcf7-text" name="name" id="name" type="text" required placeholder="Ваше имя">
+                            <input class=" wpcf7-submit" type="submit" value="Отправить">
+                            <span class="review-form__note">Отзыв будет добавлен после проверки модератором</span>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
             <div class="review__divider"></div>
-            <div class="review-wrapper">
+            <div class="review-list-wrapper">
                 <ul class="review__list">
                     <li class="review__item">
                         <div class="review-image__wrapper">

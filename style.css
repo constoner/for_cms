@@ -3,7 +3,7 @@
 body {
   min-width: 1440px;
   margin: 0;
-  font-family: "Montserrat", "tahoma", sans-serif;
+  font-family: "Montserrat", "Tahoma", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -27,7 +27,7 @@ body {
   width: 950px;
   margin: 0;
   margin-bottom: 32px;
-  font-family: "Montserrat", "tahoma", sans-serif;
+  font-family: "Montserrat", "Tahoma", sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
@@ -38,7 +38,7 @@ body {
   width: 750px;
   margin: 0;
   margin-bottom: 56px;
-  font-family: "Montserrat", "tahoma", sans-serif;
+  font-family: "Montserrat", "Tahoma", sans-serif;
   font-weight: 500;
   font-size: 40px;
   line-height: 49px;
@@ -49,7 +49,7 @@ body {
   width: 750px;
   margin: 0;
   margin-bottom: 34px;
-  font-family: "Montserrat", "tahoma", sans-serif;
+  font-family: "Montserrat", "Tahoma", sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
@@ -114,12 +114,15 @@ body {
   background-color: #f4efe2;
 }
 
-/* .review__form {
+.review-form {
+  margin-bottom: 56px;
+}
+
+.review-form__grid-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px 16px;
-  margin-bottom: 56px;
-} */
+}
 
 .review__divider {
   display: block;
@@ -129,41 +132,42 @@ body {
   background-color: #f5d581;
 }
 
-/* .review__area {
+.review-form .wpcf7-textarea {
   grid-column: 1/-1;
+  resize: vertical;
 }
 
-.review__user-name {
+.review-form .wpcf7-text {
   grid-column: 1/3;
-} */
+}
 
-/* .wysiwyg-wrapper textarea,
-.wysiwyg-wrapper input {
+.review-form .wpcf7-textarea,
+.review-form .wpcf7-text {
   display: block;
   padding: 16px;
   padding-bottom: 21px;
-  font-family: "Montserrat", "tahoma", sans-serif;
+  font-family: "Montserrat", "Tahoma", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   color: #000000;
   border: 1px solid #f5d581;
   border-radius: 8px;
-} */
+}
 
-/* .wysiwyg-wrapper *::placeholder {
-  font-family: "Montserrat", "tahoma", sans-serif;
+.review-form .wpcf7 *::placeholder {
+  font-family: "Montserrat", "Tahoma", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   color: #000000;
   opacity: 0.3;
-} */
+}
 
-/* .review__button {
+.review-form .wpcf7-submit {
   grid-column: 1/2;
   padding: 18px;
-  font-family: "Montserrat", "tahoma", sans-serif;
+  font-family: "Montserrat", "Tahoma", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
@@ -173,16 +177,16 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-} */
+}
 
-/* .review__help {
+.review-form .review-form__note {
   grid-column: 2/3;
   align-self: center;
   font-size: 12px;
   line-height: 150%;
   color: #000000;
   opacity: 0.7;
-} */
+}
 
 .review__list {
   list-style-type: none;
