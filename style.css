@@ -179,6 +179,14 @@ body {
   cursor: pointer;
 }
 
+.review-form .wpcf7-submit:hover {
+  background-color: #856103;
+}
+
+.review-form .wpcf7-submit:active {
+  background-color: #684c05;
+}
+
 .review-form .review-form__note {
   grid-column: 2/3;
   align-self: center;
