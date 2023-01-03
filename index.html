@@ -9,8 +9,43 @@
 </head>
 
 <body>
-    <header>
-        <!-- блок шапки -->
+    <header class="page-header">
+        <div class="wrapper">
+            <div class="page-header__wrapper">
+                <div class="page-header__logo-wrapper">
+                    <a href="index.html">
+                        <img src="./img/logo-header.svg" alt="Логотип." width="262" height="47">
+                    </a>
+                </div>
+                <div class="page-header__menu-wrapper">
+                    <!-- here will be menu code -->
+                    <nav class="menu-primary-comtainer">
+                        <ul class="menu">
+                            <li class="menu__item menu__item--has-children">
+                                <a href="#">Наши проекты</a>
+                                <ul class="sub-menu">
+                                    <li class="menu__item">
+                                        <a href="#">Tomazzi Hall</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#">Lounge Hall</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#">Astra Hall</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="page-header__button-wraper">
+                    <button class="button page-header__button" type="button">Оставить отзыв</button>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main class="page-main">
@@ -77,7 +112,7 @@
                         <div class="review-form__grid-wrapper">
                             <textarea class="wpcf7-textarea" name="comment" id="comment" cols="30" rows="10" required placeholder="Расскажите, что вы думаете о проекте"></textarea>
                             <input class="wpcf7-text" name="name" id="name" type="text" required placeholder="Ваше имя">
-                            <input class=" wpcf7-submit" type="submit" value="Отправить">
+                            <input class="button wpcf7-submit" type="submit" value="Отправить">
                             <span class="review-form__note">Отзыв будет добавлен после проверки модератором</span>
                         </div>
 
